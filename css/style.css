@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "GR";  
+  src: url(../fonts/AngelesRoughPersonalUseBoldItalic-6YdDY.ttf);
+  font-weight: 400;
+  font-style: regular;
+  font-display: swap;
+}
+@font-face {
+  font-family: "KR";  
+  src: url(../fonts/ofont.ru_Vinque\ Rg.ttf);
+  font-weight: 400;
+  font-style: regular;
+  font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: GR;
+    box-sizing: border-box;
+}
+
+.main-back {
+background: url(../images/2023-04-23_17-24-42.jpg);     
+background-repeat: no-repeat;
+background-size: cover;
+height:768px;
+}
+
+.tag {
+font-family: GR;
+text-align: center;
+font-size: 150px;
+padding-top: 300px;
+text-shadow:
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff,
+0 0 42px #ffd700,
+0 0 82px #ffd700,
+0 0 92px #ffd700,
+0 0 102px #ffd700,
+0 0 151px #ffd700;
+}
+.main-goods {
+  background: url(../images/2023-04-23_18-50-13.png);     
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.ol-title{
+padding-top:10px;
+font-size: 70px;
+font-family: KR;
+text-align: center;
+text-shadow:
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff,
+0 0 42px #ffd700,
+0 0 82px #ffd700,
+0 0 92px #ffd700,
+0 0 102px #ffd700,
+0 0 151px #ffd700
+}
+.gif {
+text-align:center;
+}
+
+.goods {
+  font-family: KR;
+  font-size:50px;
+  padding-left: 50px;
+  padding-top:20px;
+  text-align: center;
+  list-style-type: none;
+  }
+
+.goods-link {
+  text-decoration: none;
+  color: black;
+  font-family: KR;
+}
+.goods-link:hover {
+  cursor:pointer;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #ffd700,
+  0 0 82px #ffd700,
+  0 0 92px #ffd700,
+  0 0 102px #ffd700,
+  0 0 151px #ffd700
+}
+
+.cj {
+  display: block;
+  margin:auto;
+  max-width: 100%;
+}
+
+.footer {
+  background: url(../images/2023-04-23_20-13-44.png);     
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width:100%;
+}
+.mailing{
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+  margin-top: 50px;
+ }
+ .mailing-top {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: OpenSansB;
+  font-family: KR;
+  font-size: 40px;
+ }
+ .mailing-top:after {
+  content: "";
+     display: block;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+     width: 66px;
+     height: 3px;
+     background: #e1d9bd;
+ }
+ .mailing-objects {
+   margin-top:30px;
+ }
+ .mailing-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+ width: 400px;
+  height: 100px;
+  border-style: none;
+  background:#f4f7f6;
+  font-size: 13px;
+  outline: none;
+  box-sizing: border-box;
+   margin: auto;
+   padding-left: 20px;
+ }
+ .mailing-form:focus {
+  border: 1px solid #b59f5b;
+ }
+ .footer-tag {
+font-family: KR;
+text-align: center;
+font-size:40px;
+ }
+ 
+ .sub {
+  margin-top: 17px;
+  width: 400px;
+  height: 50px;
+ border-style: none;
+ font-family: KR;
+ font-size: 14px;
+ text-transform: uppercase;
+ background: black;
+ color:#ffffff;
+ cursor: pointer;
+ }
+ .sub:hover {
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #ffd700,
+  0 0 82px #ffd700,
+  0 0 92px #ffd700,
+  0 0 102px #ffd700,
+  0 0 151px #ffd700;
+  background: black;
+
+ }
+ 
+ .tag-tom {
+  display: flex;
+  flex-direction: column;
+ }
+ .tag-container {
+   margin-top: 50px;
+ }
+ 
+ .tag-top {
+   text-align: center;
+   text-transform: uppercase;
+   font-family:KR;
+   font-size: 40px;
+ }
+ .tag-top:after {
+  content: "";
+     display: block;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+     width: 66px;
+     height: 3px;
+     background: #e1d9bd;
+ }
+ .tag-list-ul {
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 12px;
+ }
+ .tag-list-item {
+   margin-right: 3px;
+   margin-bottom: 3px;
+ }
+ .tag-list{
+   display: flex;
+   margin-top: 30px;
+ }
+ .tag-link {
+   color: black;
+   text-decoration: none;
+   font-family: KR;
+   text-transform: uppercase;
+   padding: 5px 11px; 
+   border: 3px solid #eeeeee;
+   display: inline-block;
+   margin-bottom: 3px;
+   margin-right: 9px;
+   font-size: 40px;
+ }
+ .tag-link:hover {
+  box-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #ffd700,
+  0 0 82px #ffd700,
+  0 0 92px #ffd700,
+  0 0 102px #ffd700,
+  0 0 151px #ffd700;
+  color:white;
+ }
