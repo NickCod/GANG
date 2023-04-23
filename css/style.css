@@ -263,6 +263,7 @@ font-size:40px;
  .tag-list{
    display: flex;
    margin-top: 30px;
+   justify-content: center;
  }
  .tag-link {
    color: black;
